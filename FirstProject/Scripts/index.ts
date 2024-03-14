@@ -6,7 +6,6 @@ if (button) {
 
 function loadText() {
     const xhr = new XMLHttpRequest();
-    //console.log(xhr);
 
     xhr.open('GET', 'Models/sample.txt', true);
 
